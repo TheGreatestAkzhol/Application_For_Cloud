@@ -13,6 +13,7 @@
     <version>0.0.1-SNAPSHOT</version>
     <name>userProject</name>
     <description>userProject</description>
+    <packaging>war</packaging>
     <properties>
         <java.version>1.8</java.version>
         <spring-cloud.version>2020.0.1</spring-cloud.version>
@@ -60,7 +61,7 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
-            <optional>true</optional>
+            <version>1.18.20</version>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
